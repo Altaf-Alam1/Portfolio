@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Altaf Alam | Portfolio</title>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      scroll-behavior: smooth;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+      margin-bottom: 20px;
+    }
+
+    .portfolio img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      color: #555;
+    }
+
+    .btn-primary {
+      background-color: #0077cc;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #005fa3;
+    }
+
+    section h2 {
+      font-weight: 600;
+    }
+
+    .form-label {
+      font-weight: 500;
+    }
+    .profile img {
+  max-width: 100%;
+  height: auto;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Altaf Alam</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navMenu" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <img src="pfp3.jpg" alt="Altaf Alam" /> <!-- Replace this with your own image -->
+      <h1 class="display-4">Hi, I'm Altaf</h1>
+      <p class="lead">Web Developer | Designer | Tech Enthusiast</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h2>About Me</h2>
+      <p class="lead mt-3">
+        I'm a passionate web developer who loves building beautiful and functional websites.
+        Skilled in HTML, CSS, JavaScript, and Bootstrap. I love clean design, responsive layouts, and solving real-world problems through code.
+      </p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">My Certifications</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <!-- <img src="https://source.unsplash.com/400x300/?website" class="card-img-top" alt="Project 1"> -->
+            <div class="card-body">
+              <h5 class="card-title">My Resume</h5>
+              <!-- <p class="card-text">A clean personal portfolio site built with HTML, CSS, and Bootstrap.</p> -->
+              <a href="resume.pdf" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <!-- <img src="https://source.unsplash.com/400x300/?app" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">Deloitte</h5>
+              <p class="card-text">Data	Analytics	Job	Simulation</p>
+              <a href="deloitte.pdf" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <!-- <img src="https://source.unsplash.com/400x300/?app" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">UDEMY</h5>
+              <p class="card-text">Automated Machine Learning For Beginners (Google & Apple)</p>
+              <a href="udemy.pdf" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <!-- <img src="https://source.unsplash.com/400x300/?app" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">Microsoft</h5>
+              <p class="card-text"> Build a computer vision app with Azure Cognitive Services </p>
+              <a href="microsoft.pdf" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <!-- <img src="https://source.unsplash.com/400x300/?app" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">Infosys Springboard</h5>
+              <p class="card-text"> Introduction to Data Science</p>
+              <a href="datascience.pdf" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <!-- <img src="https://source.unsplash.com/400x300/?app" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">Infosys Springboard</h5>
+              <p class="card-text"> Programming Using C++</p>
+              <a href="c++.pdf" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <!-- <img src="https://source.unsplash.com/400x300/?app" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">TATA</h5>
+              <p class="card-text">Cybersecurity	Analyst	Job	Simulation</p>
+              <a href="tata.pdf" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <!-- <img src="https://source.unsplash.com/400x300/?app" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">Deloitte</h5>
+              <p class="card-text">Data	Analytics	Job	Simulation</p>
+              <a href="deloitte.pdf" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <!-- <img src="https://source.unsplash.com/400x300/?app" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">Deloitte</h5>
+              <p class="card-text">Data	Analytics	Job	Simulation</p>
+              <a href="deloitte.pdf" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <!-- <img src="https://source.unsplash.com/400x300/?app" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">Deloitte</h5>
+              <p class="card-text">Data	Analytics	Job	Simulation</p>
+              <a href="deloitte.pdf" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <!-- <img src="https://source.unsplash.com/400x300/?app" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">Deloitte</h5>
+              <p class="card-text">Data	Analytics	Job	Simulation</p>
+              <a href="deloitte.pdf" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more projects here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Get in Touch</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p>&copy; 2025 Altaf Alam. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
